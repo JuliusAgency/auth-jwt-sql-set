@@ -1,5 +1,6 @@
 export {
   BaseUser,
+  Token,
   AuthJwtOptions,
   AuthJwtSetSetupOptions,
   authSetSetup,

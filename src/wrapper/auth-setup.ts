@@ -5,7 +5,11 @@ import { AuthJwtOptions, setupAuthMiddleware } from '@juliusagency/auth-jwt';
 // import { TransportConfig } from '@juliusagency/simple-email-client';
 
 // Reexport from the packages
-export { BaseUser, AuthJwtOptions };
+export { 
+  BaseUser,
+  Token,
+  AuthJwtOptions
+};
 
 export type AuthJwtSetSetupOptions = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
